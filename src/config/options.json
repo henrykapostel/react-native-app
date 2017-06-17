@@ -1,0 +1,31 @@
+/*{
+    "api" : {
+        "base" : "http://api.sixwinks.com"
+        //"base" : "http://192.168.8.98:8080"
+    },
+    "firebase" : {
+        "apiKey": "AIzaSyA5QzIFFn8MKVDK7bhnkxhFfHocCmK_DEE",
+        "authDomain": "winks-5144c.firebaseapp.com",
+        "databaseURL": "https://winks-5144c.firebaseio.com",
+        "storageBucket": "winks-5144c.appspot.com",
+        "messagingSenderId": "519329517957"
+    },
+    "waitTimeBetweenWinks" : 86400
+}
+*/
+{
+    "api" : {
+        "base" : "https://winks-staging.appspot.com"
+        //"base" : "http://192.168.8.98:8080"
+    },
+    "firebase" : {
+        "apiKey"            : "AIzaSyCdRFke7WEYi_5XRjGNl-3B58WHliGz0Wc",
+        "authDomain"        : "winks-staging.firebaseapp.com",
+        "databaseURL"       : "https://winks-staging.firebaseio.com",
+        "projectId"         : "winks-staging",
+        "storageBucket"     : "winks-staging.appspot.com",
+        "messagingSenderId" : "273553474768"
+    },
+    //"waitTimeBetweenWinks" : 86400
+    "waitTimeBetweenWinks" : 30
+}

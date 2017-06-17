@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+cd android/
+bundle update fastlane
+cd ../ios/
+sudo gem update fastlane

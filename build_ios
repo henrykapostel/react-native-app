@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+cd ios
+bundle exec fastlane ios beta

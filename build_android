@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+cd android
+rm -rf build
+rm -rf app/build
+bundle exec fastlane android beta

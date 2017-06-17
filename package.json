@@ -1,0 +1,65 @@
+{
+  "name": "SixWinks",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "bluebird": "^3.4.7",
+    "firebase": "3.6.5",
+    "google-libphonenumber": "^2.0.15",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "native-base": "0.5.20",
+    "react": "15.4.2",
+    "react-addons-shallow-compare": "^15.4.2",
+    "react-native": "0.38.0",
+    "react-native-android-keyboard-adjust": "git+https://git@github.com/jr-k/react-native-android-keyboard-adjust.git",
+    "react-native-contacts": "^0.8.1",
+    "react-native-device-info": "^0.10.2",
+    "react-native-dismiss-keyboard": "^1.0.0",
+    "react-native-dropdownalert": "^2.3.0",
+    "react-native-fcm": "^2.5.6",
+    "react-native-fetch-blob": "^0.10.4",
+    "react-native-firebase-crash-report": "1.1.1",
+    "react-native-gifted-chat": "^0.0.10",
+    "react-native-image-crop-picker": "0.10.5",
+    "react-native-image-resizer": "0.0.12",
+    "react-native-img-cache": "^1.3.1",
+    "react-native-keyboard-aware-scroll-view": "^0.2.6",
+    "react-native-loading-spinner-overlay": "^0.3.0",
+    "react-native-orientation": "git+https://github.com/yamill/react-native-orientation.git#278291739e2b7c8ab208fdf404e4b139e24b4a3f",
+    "react-native-percentage-circle": "git+https://github.com/JackPu/react-native-percentage-circle.git",
+    "react-native-router-redux": "git+https://git@github.com/Qwikly/react-native-router-redux.git",
+    "react-native-simple-store": "^1.1.0",
+    "react-native-splash-screen": "^1.0.9",
+    "react-native-tab-view": "^0.0.40",
+    "react-native-vector-icons": "^3.0.0",
+    "react-redux": "^4.4.6",
+    "react-timer-mixin": "^0.13.3",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.7.4",
+    "redux-persist": "^4.0.1",
+    "redux-thunk": "^2.1.0",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-jest": "17.0.0",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "17.0.0",
+    "jest-react-native": "17.1.0",
+    "react-test-renderer": "~15.3.2",
+    "whatwg-fetch": "^1.1.1"
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "src/resources/fonts"
+    ]
+  }
+}
